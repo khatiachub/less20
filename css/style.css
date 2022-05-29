@@ -14,17 +14,16 @@ ul{
     width: 200px;
     list-style: none;
     font-size: 20px;
-    color: white;
+    color: rgb(95, 93, 93);
 }
 a{
     text-decoration: none;
     font-size: 30px;
-    color: #fff;
+    color: rgb(102, 101, 101);
     font-weight: bolder;
 }
 .navbar{
     transition: 0.5s linear;
-
 }
 
 .burger{
@@ -85,7 +84,8 @@ a{
     }
 }
 .accordion{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     background-color: burlywood;
     margin: 0 auto;
     margin-top: 50px;
@@ -99,6 +99,8 @@ a{
     height:0px;
     overflow: hidden;
     transition: 0.5s linear;
+    color: rgb(95, 93, 93);
+
 }
 .accordion.active .description{
     height: 140px;
@@ -115,6 +117,10 @@ h4::before{
     position: absolute;
     font-size: 20px;
     font-weight: bold;
+    color: rgb(95, 93, 93);
+}
+h4{
+    color: rgb(95, 93, 93);
 }
 
 
